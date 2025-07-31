@@ -1,0 +1,53 @@
+# Compiled class files
+*.class
+
+# Build directories
+build/
+target/
+bin/
+
+# IDE files - Eclipse
+.project
+.classpath
+.settings/
+*.launch
+.factorypath
+.loadpath
+
+# IDE files - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Server files
+Servers/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Package Files
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Eclipse workspace metadata
+.metadata/
