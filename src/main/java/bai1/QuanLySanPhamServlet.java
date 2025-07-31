@@ -17,7 +17,7 @@ public class QuanLySanPhamServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.setAttribute("danhSachSanPham", danhSachSanPham);
-		req.getRequestDispatcher("/quanlysanpham.jsp").forward(req, resp);
+		req.getRequestDispatcher("/product.jsp").forward(req, resp);
 	}
 	
 	@Override
